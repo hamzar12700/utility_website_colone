@@ -1,0 +1,90 @@
+@media screen and (max-width:991px) {
+    
+h3{
+    font-size: 1.2rem;
+}    
+    .nav-toggle{
+        display: block;
+        margin-right: 20px;
+    }
+    .nav-links{
+        display: none;
+    }
+    .example-section-cards{
+        gap: 10px;
+    }
+    .example-img{
+        /* width: 50%; */
+        width: calc(50% - 5px);
+        height: 200px;
+    }
+    .cta-section{
+        padding-block: 80px;
+    }
+    .cta-section-container{
+
+        gap: 40px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .header-section{
+        flex-direction: column-reverse;
+    }
+    .header-left{
+        max-width: 100%;
+        text-align: center;
+    }
+    .primary-btn{
+        width: 100%;
+    }
+    .features-card{
+        max-width: calc(50% - 10px);
+        /* background-color: crimson; */
+    }
+    .big-features-container{
+        flex-direction: column;
+    }
+    .big-features-container2{
+        flex-direction: column-reverse;
+    }
+.footer-container{
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    align-items: center;
+}
+.link-column{
+    align-items: stretch;
+}
+.subfooter-container{
+    gap: 20px;
+}
+}
+
+
+@media screen and (max-width:479px) {
+    :root{
+        --padding-inline-section : 10px
+    }
+
+    h1{
+        font-size: 2rem;
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+    h3{
+        font-size: 1.5rem;
+    }
+    p{
+        font-size: 1rem;
+    }
+
+    .features-card{
+        min-width: 100%;
+    }
+    .example-img{
+        width: 100%;
+    }
+}
